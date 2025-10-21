@@ -1,0 +1,78 @@
+.main-div{
+    background-color:burlywood;
+    display:flex;
+    justify-content:space-around;
+    gap: 20px;
+    padding: 20px; 
+   
+}    
+.main-div img{
+    width: 100%;
+    height: 200px;
+    object-fit:cover;
+}
+.main-div ul{
+    display:flex;
+    justify-content:space-around;
+}
+.main-div h1{
+    font-size: larger;
+    color:brown;
+    padding: 15px;
+    text-align: center;
+}
+.main-div p{
+    font-size: small;
+    color:blueviolet;
+}
+
+.main-div li{
+    display:flex 
+}
+.footer1{
+    display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  font-size: large;
+  background-color: blue;
+}
+.footer2{
+    display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  font-size:large;
+  background-color:teal;
+}
+.footer3{
+    display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  font-size: large;
+  background-color: coral;
+}
+.first-div{
+   border-radius: 10px;
+    box-shadow:0 4px 8px;
+    width: 300px;
+    overflow:hidden;
+    background-color: azure;
+}
+
+.second-div{
+   border-radius: 10px;
+    box-shadow:0 4px 8px;
+    width: 300px;
+    overflow:hidden;
+    background-color: bisque;
+}
+.third-div {
+     border-radius: 10px;
+    box-shadow:0 4px 8px;
+    width: 300px;
+    overflow:hidden;
+    background-color:antiquewhite;
+}
+.main-div{
+     background-image: url(c:/Users/Hp/Desktop/images/grey-crowned-cranes-700x450.jpg);  
+     background-size: cover;
+}
